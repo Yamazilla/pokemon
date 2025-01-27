@@ -36,7 +36,7 @@ class Character:
             print("ERROR: This player doesn`t have any Pokemon")   
     
     def battle(self, character):
-        print("{} iniciou uma batalha com {}".format(self,character))
+        print("{} started a battle with {}".format(self,character))
 
         character.show_pokemons()
         enemy_pokemon = character.choose_pokemon()
